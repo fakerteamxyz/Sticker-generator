@@ -1,0 +1,46 @@
+@import url("https://unpkg.com/98.css@latest/dist/98.css");
+html {
+  scroll-behavior: smooth;
+  transition: 0.3s ease-out;
+}
+body {
+  padding: 1em;
+  background: #666;
+}
+input {
+  width: 90%;
+}
+.window {
+  height: 75vh;
+}
+.window-body {
+  height: 50vh;
+}
+button {
+  margin: 0 0.3em 0 0.3em;
+}
+fieldset {
+  margin: 1.5em 0 0.3em 0;
+}
+#imgWrapper {
+  padding: 1em;
+  background: #fff;
+  max-width: 100%;
+}
+#bratImg {
+  width: inherit;
+  max-width: inherit;
+}
+
+
+.flex {
+  display: flex;
+}
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
